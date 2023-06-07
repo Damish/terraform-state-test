@@ -7,11 +7,11 @@ resource "aws_s3_bucket" "example" {
   }
 }
 
-# resource "aws_s3_bucket" "example1" {
-#   bucket = "test-bucket-june"
+resource "aws_s3_bucket" "example1" {
+  bucket = "test-bucket-june"
 
-#   tags = {
-#     Name        = "My bucket"
-#     Environment = "Dev"
-#   }
-# }
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
